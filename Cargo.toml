@@ -1,0 +1,12 @@
+[package]
+name = "rust-lib-bin-crate-example"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+name = "mylib"
+path = "src/lib.rs"
+
+[[bin]]
+name = "mybin"
+path = "src/lib.rs"
